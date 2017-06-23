@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AdaptableBlotter.JS Hypergrid Demo</title>
+    <!--CSS for the demo-->
+    <link href="hypergriddemo.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="ExtLibs/bootstrap/css/bootstrap.min.css">
+    <!-- Latest Hypergrid -->
+    <script src="ExtLibs/hypergrid/fin-hypergrid.js"></script>
+    <!-- Data Generator -->
+    <script src="datagenerator.js"></script>
+    <!-- Grid Setup -->
+    <script src="hypergriddemo.js"></script>
+</head>
+
+<body>
+    <div>
+        <button onclick="reInintBlotter()" id="generate_blotter">Generate Blotter</button>
+        <select onchange="saveData()" id="ab_row_number"> 
+            <option value="100">100 rows</option> 
+            <option value="500">500 rows</option> 
+            <option value="1000">1000 rows</option>
+            <option value="5000">5000 rows</option> 
+            <option value="10000">10000 rows</option> 
+            <option value="15000">15000 rows</option> 
+            <option value="20000">20000 rows</option> 
+            <option value="25000">25000 rows</option> 
+            <option value="50000">50000 rows</option> 
+        </select>
+        <select onchange="saveData()" id="ab_column_number"> 
+            <option value="5">5 columns</option> 
+            <option value="10">10 columns</option> 
+            <option value="15">15 columns</option>
+            <option value="20">20 columns</option> 
+            <option value="25">25 columns</option> 
+            <option value="30">30 columns</option> 
+            <option value="35">35 columns</option> 
+            <option value="40">40 columns</option> 
+            <option value="45">45 columns</option> 
+            <option value="50">50 columns</option> 
+        </select>
+        <select onchange="saveData()" id="ab_ticking_data_interval"> 
+            <option value="NA">No Ticking Data</option> 
+            <option value="250">250 ms</option> 
+            <option value="500">500 ms</option> 
+            <option value="750">750 ms</option> 
+            <option value="1000">1000 ms</option> 
+        </select>
+        <button onclick="reIndexData()">ReIndex Data</button>
+        <label id="ab_fps_number" />
+    </div>
+    <!-- Adaptable Blotter div for react and dashboard -->
+    <div id="content" style="margin:15px;"></div>
+    <p/>
+    <!-- Grid div -->
+    <div id="grid"></div>
+    <% if (htmlWebpackPlugin.options.bundleJs) { %>
+        <script src="<%= htmlWebpackPlugin.options.bundleJs %>" type="text/javascript"></script>
+        <% } %>
+</body>
+
+</html>
