@@ -2,7 +2,7 @@
 
 Use this repository to test the performance of AdaptableBlotter.JS (running on top of OpenFin's Hypergrid and using dummy data).
 
-You can stipulate the number of columns, rows, and refresh rate of the Blotter.
+You can stipulate the number of columns and the number of rows, and set the 'ticking rate' of the Blotter.
 
 Adaptable Blotter licences are free for development use, but a paid-for annual end user licence is required for each production user. 
 
