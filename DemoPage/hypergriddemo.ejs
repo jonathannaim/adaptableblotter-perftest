@@ -17,6 +17,11 @@
 </head>
 
 <body>
+    <% if (htmlWebpackPlugin.options.version) { %>
+    <h2>AdaptableBlotter.JS Demos (version
+      <%= htmlWebpackPlugin.options.version %>
+        <%= htmlWebpackPlugin.options.versiondate %>)</h2>
+    <% } %>
     <div class="panel panel-default">
         <div class="panel-body">
             <form class="form-inline" onsubmit="event.preventDefault()">

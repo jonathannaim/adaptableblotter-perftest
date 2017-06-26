@@ -29,14 +29,7 @@ module.exports = {
             filename: "hypergriddemo.html",
             template: 'DemoPage/hypergriddemo.ejs',
             inject: false,
-            'bundleJs': PACKAGE.version + "/adaptableblotterhypergrid-bundle.min.js",
-        }),
-        new HtmlWebpackPlugin({
-            chunks: [],
-            filename: "kendodemo.html",
-            template: 'DemoPage/kendodemo.ejs',
-            inject: false,
-            'bundleJs': PACKAGE.version + "/adaptableblotterkendo-bundle.min.js",
+            'bundleJs': PACKAGE.version + "/adaptableblotterhypergrid-bundle.min.js"
         }),
         new HtmlWebpackPlugin({
             chunks: [],
