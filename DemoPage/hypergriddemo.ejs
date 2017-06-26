@@ -37,6 +37,7 @@
                 <option value="25000">25000 rows</option> 
                 <option value="50000">50000 rows</option> 
             </select>
+            <span>&nbsp;</span>
             <label>Number of Columns: </label>
             <select onchange="saveData()" id="ab_column_number" placeholder="select" class="form-control"> 
                 <option value="5">5 columns</option> 
@@ -50,6 +51,7 @@
                 <option value="45">45 columns</option> 
                 <option value="50">50 columns</option> 
             </select>
+           <span>&nbsp;</span>
             <label>Ticking Interval (column 0 and 3 on all records): </label>
             <select onchange="saveData()" id="ab_ticking_data_interval" placeholder="select" class="form-control"> 
                 <option value="NA">No Ticking Data</option> 
@@ -60,10 +62,11 @@
             </select>
             <button onclick="reInintBlotter()" id="generate_blotter" class="btn btn-primary" disabled>Regenerate Blotter</button>
             </form>
+            <br/>
             <form class="form-inline" onsubmit="event.preventDefault()">
-                <label>ReIndex Data (for search, filter, quicksearch...): </label>
-
-                <button onclick="reIndexData()" class="btn btn-primary">ReIndex Data</button>
+                <label>Re-Index Data (for search, filter, quicksearch etc.): </label>
+                <button onclick="reIndexData()" class="btn btn-primary">Re-Index Data</button>
+               <span>&nbsp;</span>
                 <label>Framerate: </label>
                 <label id="ab_fps_number" style="color:blue"/>
                 </span>

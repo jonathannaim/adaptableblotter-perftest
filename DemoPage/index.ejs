@@ -6,10 +6,23 @@
     tr {
       height: 45px
     }
+
+     .btn img {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px;
+      border-radius: 5px;
+      width: 165px;
+    }
+
+    p {
+    font-family: Helvetica, Arial, sans-serif, "Times New Roman";
+    }
+
   </style>
 </head>
 
-<body style="background-color:#ffffff;">
+<body style="background-color:#ffffff;margin:30px;padding:2">
   <p><img src="http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png" alt="" width="300" height="176"
     /></p>
   <% if (htmlWebpackPlugin.options.version) { %>
@@ -19,26 +32,27 @@
     Date: <%= htmlWebpackPlugin.options.versiondate %></i>
     <% } %>
       <p/>
-      <table style="width:800px">
+      <table>
         <tr>
-          <td>Use the AdaptableBlotter.JS Performance Monitor to test the peformance of AdaptableBlotter.JS, running on
-            top of OpenFin's Hypergrid using dummy data.</td>
-        </tr>
-        <tr>
-          <td>
-            You can stipulate the number of columns and rows, and set the refresh rate of the Blotter.
+          <td><p/>Use the AdaptableBlotter.JS Performance Monitor to test the peformance of AdaptableBlotter.JS, running on
+            top of OpenFin's Hypergrid using dummy data.<p/>
+            You can stipulate the number of columns and the number of rows, and set the 'ticking rate' of the Blotter.
           </td>
         </tr>
         <tr style="height:70px">
           <td>
-            <button style="height:50px;width:350px" class="test" onclick="location.href='hypergriddemo.html' "><h3>Start AdaptableBlotter.JS Performance Monitor</h3></button>
+            <button class="btn" onclick="location.href='hypergriddemo.html' "><h3>Start AdaptableBlotter.JS <p/>Performance Monitor</h3></button>
           </td>
+        </tr>
+         <tr>
+          <td>
+            <p/><b>Help</b><br/>If you require further information please visit our <a href="http://adaptabletools.com" target="_blank">website</a> or use the <a href="https://adaptabletools.zendesk.com/hc/en-us" target="_blank">Online Help</a>.  Alternatively download the <a a href="Adaptable_Blotter_User_Guide.pdf" target="_blank">Adaptable Blotter User Guide</a></td>
         </tr>
         <tr>
           <td>
-            <b>Licence Information</b><br/> Please note that Adaptable Blotter licences are free for development use, but
-            a paid-for annual end user licence is required for each production user.  For more information please read the
-            <a a href="LICENSE.md">Licence File</a> or contact <a href="mailto:support@adaptabletools.com">Adaptable Tools Support</a>.
+            <p/><b>Licence Information</b><br/> Please note that Adaptable Blotter licences are free for development use, but
+            a paid-for annual end user licence is required for each production user. For more information please read the
+            <a a href="LICENSE.md" target="_blank">Licence File</a> or contact <a href="mailto:support@adaptabletools.com">Adaptable Tools Support</a>.
           </td>
         </tr>
         <tr>
