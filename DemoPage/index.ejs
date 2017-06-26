@@ -10,31 +10,40 @@
 </head>
 
 <body style="background-color:#ffffff;">
-  <p><img src="http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png" alt="" width="300" height="176"/></p>
+  <p><img src="http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png" alt="" width="300" height="176"
+    /></p>
   <% if (htmlWebpackPlugin.options.version) { %>
-    <h2>AdaptableBlotter.JS Performance Monitor (version
-      <%= htmlWebpackPlugin.options.version %>
-        <%= htmlWebpackPlugin.options.versiondate %>)</h2>
+    <h2>AdaptableBlotter.JS Performance Monitor</h2>
+    <i>Version: <%= htmlWebpackPlugin.options.version %>
+    <br/>
+    Date: <%= htmlWebpackPlugin.options.versiondate %></i>
     <% } %>
+      <p/>
       <table style="width:800px">
         <tr>
-          <td>The AdaptableBlotter.JS Performance Monitor allows you to test the peformance of AdaptableBlotter.JS, running on top of OpenFin's Hypergrid using dummy data.<br/>
-          You can stipulate the number of columns, rows, and refresh rate of the Blotter.</td>
+          <td>Use the AdaptableBlotter.JS Performance Monitor to test the peformance of AdaptableBlotter.JS, running on
+            top of OpenFin's Hypergrid using dummy data.</td>
         </tr>
         <tr>
-          <td> <input type="button" onclick="location.href='hypergriddemo.html' ">Start the Performance Monitor</a>
+          <td>
+            You can stipulate the number of columns and rows, and set the refresh rate of the Blotter.
+          </td>
+        </tr>
+        <tr style="height:70px">
+          <td>
+            <button style="height:50px;width:350px" class="test" onclick="location.href='hypergriddemo.html' "><h3>Start AdaptableBlotter.JS Performance Monitor</h3></button>
           </td>
         </tr>
         <tr>
-          <td><b>Licence Information</b></td>
-        </tr>
-        <tr>
-            <td>Please note that Adaptable Blotter licences are free for development use, but a paid-for annual end user licence is required for
-            each production user.  For more information please read the <a a href="LICENSE.md">Licence File</a> or contact <a href="mailto:support@adaptabletools.com">Adaptable Tools Support</a>.
+          <td>
+            <b>Licence Information</b><br/> Please note that Adaptable Blotter licences are free for development use, but
+            a paid-for annual end user licence is required for each production user.  For more information please read the
+            <a a href="LICENSE.md">Licence File</a> or contact <a href="mailto:support@adaptabletools.com">Adaptable Tools Support</a>.
           </td>
         </tr>
         <tr>
-          <td>The Repo for the AdaptableBlotter.JS Performance Monitor is located at <a a href="https://github.com/jonathannaim/adaptableblotter-perftest">https://github.com/jonathannaim/adaptableblotter-perftest</a></td>
+          <td>
+            <p/><b>Source Code</b><br/> The Repository for the AdaptableBlotter.JS Performance Monitor is located <a a href="https://github.com/jonathannaim/adaptableblotter-perftest">here</a>.</td>
         </tr>
       </table>
 
