@@ -10,32 +10,29 @@
 </head>
 
 <body style="background-color:#ffffff;">
-  <p><img src="http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png" alt="" width="151"
-      height="89" /></p>      
+  <p><img src="http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png" alt="" width="151" height="89"
+    /></p>
   <% if (htmlWebpackPlugin.options.version) { %>
     <h2>AdaptableBlotter.JS Performance Page (version
       <%= htmlWebpackPlugin.options.version %>
         <%= htmlWebpackPlugin.options.versiondate %>)</h2>
     <% } %>
-      <table style="width:600px">
+      <table style="width:800px">
         <tr>
-          <td><img src="https://openfin.co/wp-content/uploads/2017/01/OpenFin.png" alt="" width="130" height="38" /></td>
-          <td><a href="hypergriddemo.html">OpenFin Hypergrid Demo</a></td>
+          <td>This page allows you to test the peformance of AdaptableBlotter.JS (running on top of OpenFin's Hypergrid). You
+            can stipulate the number of columns, rows, and refresh rate of the Blotter.</td>
         </tr>
         <tr>
-          <td>Demo Git Repo</td>
-          <td><a a href="https://github.com/jonathannaim/adaptableblotter-perftest">https://github.com/jonathannaim/adaptableblotter-perftest</a></td>
+          <td> <input type="button" onclick="location.href='hypergriddemo.html' ">Run the Performance Demo</a></td>
         </tr>
         <tr>
-          <td colspan="2"><i>Please note that licences are free for development use, but a paid-for annual end user licence is required for
-            each production user.</i></td>
+          <td><i>Please note that licences are free for development use, but a paid-for annual end user licence is required for
+            each production user.</i> Read the <a a href="LICENSE.md">Adaptable Blotter Licence</a> for more information
+            or contact the <a href="mailto:support@adaptabletools.com">Adaptable Tools Support team </a></i>
+          </td>
         </tr>
         <tr>
-          <td colspan="2"><i>See the licence file below for more information or contact the <a href="mailto:support@adaptabletools.com">Adaptable Tools Support team </a></i></td>
-        </tr>
-        <tr>
-          <td><i>Licence Information</i></td>
-          <td><i><a a href="LICENSE.md">Adaptable Blotter Licence</a></i></td>
+          <td>The Repo for this Performance page is located at <a a href="https://github.com/jonathannaim/adaptableblotter-perftest">https://github.com/jonathannaim/adaptableblotter-perftest</a></td>
         </tr>
       </table>
 
