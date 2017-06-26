@@ -1,6 +1,6 @@
 # AdaptableBlotter.JS Performance Monitor
 
-Use this repo to test the performance of AdaptableBlotter.JS (running on top of OpenFin's Hypergrid and using dummy data).
+Use this repository to test the performance of AdaptableBlotter.JS (running on top of OpenFin's Hypergrid and using dummy data).
 
 You can stipulate the number of columns, rows, and refresh rate of the Blotter.
 
