@@ -65,7 +65,7 @@ function saveData() {
     localStorage.setItem(columnNumberElement.id, columnNumberElement.value);
     var tickingDataIntervalElement = document.getElementById("ab_ticking_data_interval");
     localStorage.setItem(tickingDataIntervalElement.id, tickingDataIntervalElement.value);
-    document.getElementById("generate_blotter").style.background = "#00ff00";
+    document.getElementById("generate_blotter").removeAttribute("disabled");
 }
 function InitBlotter() {
     //Generate the dumy data
@@ -78,7 +78,7 @@ function InitBlotter() {
     //create the Hypergrid
     grid = new fin.Hypergrid('#grid', { data: data, schema: getSchema(data) });
     var fpsNumberElement = document.getElementById("ab_fps_number");
-    setInterval(() => { fpsNumberElement.innerHTML = grid.canvas.currentFPS.toFixed(1); }, 1000)
+    setInterval(() => { fpsNumberElement.innerHTML = grid.canvas.currentFPS.toFixed(1) + " FPS"; }, 1000)
     if (tickingDataIntervalElement.value != "NA") {
         dataGen.startTickingData(grid, tickingDataIntervalElement.value)
     }
