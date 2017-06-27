@@ -1,0 +1,601 @@
+{
+    "ConditionalStyle": {
+        "ConditionalStyleConditions": [
+            {
+                "Uid": "ca8af2c6-a5a2-4ccf-b8c3-dac2483f57fa",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#c0c0c0",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "1",
+                                    "Operand2": "10",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "b4e5b947-ea75-4aef-b091-72b56460afae",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#808080",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "10",
+                                    "Operand2": "20",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "8309dfe5-e325-4615-a7a4-e82d9379fcc0",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#800000",
+                    "ForeColor": "#ffffff",
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "20",
+                                    "Operand2": "30",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "f56331bd-d1ee-42c4-9293-fb073056b2e8",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#808000",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "30",
+                                    "Operand2": "40",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "bb4d0b39-779c-44e1-9b92-43cb08d6cf91",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#008000",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "40",
+                                    "Operand2": "50",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "1be02ea5-2aeb-488b-a576-de4f368f7fe8",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#00ff00",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "50",
+                                    "Operand2": "60",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "60954c90-8ee8-4f00-9627-dcac39b1e40b",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#ffff00",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "60",
+                                    "Operand2": "70",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "33b626a9-1105-406d-97e3-adcd6008e914",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#ffffcc",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "70",
+                                    "Operand2": "80",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "a7b83471-f022-4d7e-af68-d8ff8f079edf",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#000080",
+                    "ForeColor": "#ffffff",
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "80",
+                                    "Operand2": "90",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "dc2d3ff9-4da9-4d9c-ab5a-b3419d4c7d42",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#0000ff",
+                    "ForeColor": "#ffffff",
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "90",
+                                    "Operand2": "100",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "060cda83-23f9-4483-ba60-d37c621e2590",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#008080",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "100",
+                                    "Operand2": "110",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "b71f3008-15a7-40df-9995-53fb9b90b3b8",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#00ffff",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "110",
+                                    "Operand2": "120",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "6e5bd1db-9220-4b84-92d1-083b7fb45e79",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#ff00ff",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "120",
+                                    "Operand2": "130",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "0695a76a-8df8-41ee-bf59-3b8e3e1db82d",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#800080",
+                    "ForeColor": "#ffffff",
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "130",
+                                    "Operand2": "140",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "5ec0b3c5-a5c6-4075-81bd-e02577c8be40",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#8b0000",
+                    "ForeColor": "#ffffff",
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "140",
+                                    "Operand2": "150",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "bcaac418-0d6c-4866-8664-2da362a2e5d2",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#ff0000",
+                    "ForeColor": "#ffffff",
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "150",
+                                    "Operand2": "160",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "bea01d82-e655-44eb-bc1e-c892c62fac1d",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#ff6961",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "160",
+                                    "Operand2": "170",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "5aa15b92-f040-4450-86af-3ef3de5e0eae",
+                "ColumnId": "",
+                "Style": {
+                    "BackColor": "#ffa500",
+                    "ForeColor": null,
+                    "FontWeight": 0,
+                    "FontStyle": 0,
+                    "FontSize": null
+                },
+                "ConditionalStyleScope": 1,
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "170",
+                                    "Operand2": "180",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            }
+        ]
+    },
+    "QuickSearch": {
+        "QuickSearchText": "",
+        "QuickSearchOperator": 8,
+        "QuickSearchDisplayType": 0,
+        "QuickSearchBackColor": "#FFFFCC"
+    },
+    "AdvancedSearch": {
+        "AdvancedSearches": [
+            {
+                "Uid": "040b22a3-790e-42e4-a436-a521c869b8fe",
+                "Name": "PrimaryKeyBetween1And50",
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "primaryKey",
+                            "Ranges": [
+                                {
+                                    "Operand1": "1",
+                                    "Operand2": "50",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "ded79a23-203b-4792-a9c3-5bee1290f4c0",
+                "Name": "Column0Between0and70",
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": [
+                        {
+                            "ColumnName": "Column0",
+                            "Ranges": [
+                                {
+                                    "Operand1": "20",
+                                    "Operand2": "70",
+                                    "Operator": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "IsPredefined": true
+            }
+        ],
+        "CurrentAdvancedSearchId": ""
+    }
+}

@@ -100,7 +100,8 @@ function InitBlotter() {
             primaryKey: "primaryKey",
             userName: "Jonathan",
             enableAuditLog: false,
-            enableRemoteConfigServer: false
+            enableRemoteConfigServer: false,
+            predefinedConfigUrl: "predefinedconfig.json"
         });
     grid.addProperties(lightTheme);
 }
