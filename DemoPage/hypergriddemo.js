@@ -78,7 +78,7 @@ function InitBlotter() {
     //create the Hypergrid
     grid = new fin.Hypergrid('#grid', { data: data, schema: getSchema(data) });
     var fpsNumberElement = document.getElementById("ab_fps_number");
-    setInterval(() => { fpsNumberElement.innerHTML = grid.canvas.currentFPS.toFixed(1) + " FPS"; }, 1000)
+    setInterval(() => { fpsNumberElement.innerText = grid.canvas.currentFPS.toFixed(1) + " FPS"; }, 1000)
     if (tickingDataIntervalElement.value != "NA") {
         dataGen.startTickingData(grid, tickingDataIntervalElement.value)
     }
@@ -101,8 +101,14 @@ function InitBlotter() {
             userName: "Jonathan",
             enableAuditLog: false,
             enableRemoteConfigServer: false,
-            predefinedConfigUrl: "predefinedconfig.json"
+            predefinedConfigUrl: "predefinedconfig.json",
+            maxColumnValueItemsDisplayed: 1000
         });
+    adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
+        let csNumberElement = document.getElementById("ab_cs_number");
+        csNumberElement.innerText = adaptableblotter.AdaptableBlotterStore.TheStore.getState().ConditionalStyle.ConditionalStyleConditions.length
+    })
+
     grid.addProperties(lightTheme);
 }
 

@@ -18,7 +18,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "1",
@@ -48,7 +48,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "10",
@@ -78,7 +78,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "20",
@@ -108,7 +108,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "30",
@@ -138,7 +138,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "40",
@@ -168,7 +168,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "50",
@@ -198,7 +198,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "60",
@@ -228,7 +228,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "70",
@@ -258,7 +258,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "80",
@@ -288,7 +288,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "90",
@@ -318,7 +318,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "100",
@@ -348,7 +348,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "110",
@@ -378,7 +378,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "120",
@@ -408,7 +408,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "130",
@@ -438,7 +438,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "140",
@@ -468,7 +468,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "150",
@@ -498,7 +498,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "160",
@@ -528,7 +528,7 @@
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "170",
@@ -575,14 +575,14 @@
             },
             {
                 "Uid": "ded79a23-203b-4792-a9c3-5bee1290f4c0",
-                "Name": "Column0Between0and70",
+                "Name": "NumberColumn0Between0and70",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "Column0",
+                            "ColumnName": "NumberColumn0",
                             "Ranges": [
                                 {
                                     "Operand1": "20",
@@ -597,5 +597,45 @@
             }
         ],
         "CurrentAdvancedSearchId": ""
+    },
+    "Dashboard": {
+        "DashboardStrategyControls": [
+            {
+                "Strategy": "Functions",
+                "IsVisible": true,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "DashboardShortcuts",
+                "IsVisible": true,
+                "IsCollapsed": true,
+                "ControlConfiguration": [
+                    "Dashboard",
+                    "Smart Edit",
+                    "Plus/Minus",
+                    "Conditional Style"
+                ]
+            },
+            {
+                "Strategy": "AdvancedSearch",
+                "IsVisible": true,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "QuickSearch",
+                "IsVisible": false,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "Layout",
+                "IsVisible": false,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "Filter",
+                "IsVisible": true,
+                "IsCollapsed": true
+            }
+        ]
     }
 }
