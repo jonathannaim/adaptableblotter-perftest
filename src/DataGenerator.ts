@@ -29,8 +29,8 @@ export class DataGenerator {
         setInterval(() => {
             for (let record of grid.behavior.getData()) {
                 let numberToAdd: number = this.generateRandomInt(1, 2) == 1 ? -0.5 : 0.5;
-                record["Column0"] = this.roundTo4Dp(record["Column0"] + numberToAdd);
-                record["Column3"] = this.roundTo4Dp(record["Column3"] + numberToAdd);
+                record["NumberColumn0"] = this.roundTo4Dp(record["NumberColumn0"] + numberToAdd);
+                record["NumberColumn3"] = this.roundTo4Dp(record["NumberColumn3"] + numberToAdd);
 
             }
         }, interval)
@@ -39,17 +39,23 @@ export class DataGenerator {
     createRow(i: number, columnsType: string[]): Row {
         var row: Row = { primaryKey: i }
         columnsType.forEach((x, index) => {
-            let columnId = "Column" + index
+
             switch (x) {
-                case "string":
+                case "string": {
+                    let columnId = "StringColumn" + index
                     row[columnId] = Math.random().toString(36).slice(2)
                     break
-                case "int":
+                }
+                case "int": {
+                    let columnId = "IntColumn" + index
                     row[columnId] = this.generateRandomInt(0, 999)
                     break
-                case "number":
+                }
+                case "number": {
+                    let columnId = "NumberColumn" + index
                     row[columnId] = this.getMeaningfulPositiveNegativeDouble()
                     break
+                }
             }
         })
         return row;
