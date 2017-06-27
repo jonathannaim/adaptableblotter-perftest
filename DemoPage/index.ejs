@@ -1,28 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <style>
-    tr {
-      height: 45px
-    }
-
-     .btn img {
-      display: inline-block;
-      vertical-align: middle;
-      padding: 5px;
-      border-radius: 5px;
-      width: 165px;
-    }
-
-    p {
-    font-family: Helvetica, Arial, sans-serif, "Times New Roman";
-    }
-
-  </style>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body style="background-color:#ffffff;margin:30px;padding:2">
+<body>
+  <div class="container-fluid">
   <p><img src="http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png" alt="" width="300" height="176"
     /></p>
   <% if (htmlWebpackPlugin.options.version) { %>
@@ -41,12 +26,12 @@
         </tr>
         <tr style="height:70px">
           <td>
-            <button class="btn" onclick="location.href='hypergriddemo.html' "><h3>Start AdaptableBlotter.JS <p/>Performance Monitor</h3></button>
+            <button class="btn btn-primary" onclick="location.href='hypergriddemo.html' "><p/><p/>Start Performance Monitor<p/></button>
           </td>
         </tr>
          <tr>
           <td>
-            <p/><b>Help</b><br/>If you require further information please visit our <a href="http://adaptabletools.com" target="_blank">website</a> or use the <a href="https://adaptabletools.zendesk.com/hc/en-us" target="_blank">Online Help</a>.  Alternatively download the <a a href="Adaptable_Blotter_User_Guide.pdf" target="_blank">Adaptable Blotter User Guide</a></td>
+           <p/><p/><b>Help</b><br/>If you require further information please visit our <a href="http://adaptabletools.com" target="_blank">website</a> or use the <a href="https://adaptabletools.zendesk.com/hc/en-us" target="_blank">Online Help</a>.  Alternatively download the <a a href="Adaptable_Blotter_User_Guide.pdf" target="_blank">Adaptable Blotter User Guide</a></td>
         </tr>
         <tr>
           <td>
@@ -60,5 +45,7 @@
             <p/><b>Source Code</b><br/> The Repository for the AdaptableBlotter.JS Performance Monitor is located <a a href="https://github.com/jonathannaim/adaptableblotter-perftest">here</a>.</td>
         </tr>
       </table>
+  </div>
+</body>
 
 </html>
