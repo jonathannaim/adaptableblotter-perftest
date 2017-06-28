@@ -43,7 +43,12 @@ export class DataGenerator {
             switch (x) {
                 case "string": {
                     let columnId = "StringColumn" + index
-                    row[columnId] = Math.random().toString(36).slice(2)
+                    if (index === 1) {
+                        row[columnId] = this.getRandomItem(this.names)
+                    }
+                    else {
+                        row[columnId] = Math.random().toString(36).slice(2)
+                    }
                     break
                 }
                 case "int": {
@@ -89,4 +94,26 @@ export class DataGenerator {
             return ary[this.generateRandomInt(0, ary.length - 1)];
         }
     }
+    private names: string[] = [
+        "Stacee Dreiling",
+        "Cecil Staab",
+        "Sheba Dowdy",
+        "Loralee Stalker",
+        "Sanjuana Kimsey",
+        "Shante Hey",
+        "Magen Willison",
+        "Casimira Tabler",
+        "Annemarie Rybicki",
+        "Granville Westfall",
+        "Colby Troupe",
+        "Wei Frith",
+        "Sarai Pilgrim",
+        "Yael Rich",
+        "Hester Bluhm",
+        "Season Landreth",
+        "Britany Saffell",
+        "Kelley Babb",
+        "Bradley Chumley",
+        "Louella Spiker"
+    ];
 }
