@@ -108,12 +108,28 @@ function InitBlotter() {
         let csNumberElement = document.getElementById("ab_cs_number");
         csNumberElement.innerText = adaptableblotter.AdaptableBlotterStore.TheStore.getState().ConditionalStyle.ConditionalStyleConditions.length
     })
-
+    grid.behavior.setColumnProperties(2, {
+        editor: 'textfield'
+    })
+    grid.behavior.setColumnProperties(3, {
+        editor: 'textfield',
+        format: 'number'
+    })
+    var origgetCell = grid.behavior.dataModel.getCell;
+    grid.behavior.dataModel.getCell = (config, declaredRendererName) => {
+        if (config.isDataRow) {
+            if (!adaptableblotter.isColumnReadonly(config.field)) {
+                config.font = lightTheme.fontBold;
+            }
+        }
+        return origgetCell(config, declaredRendererName);
+    };
     grid.addProperties(lightTheme);
 }
 
 var lightTheme = {
     font: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    fontBold: 'bold 14px Helvetica Neue, Helvetica, Arial, sans-serif',
     color: '#003f59',
     backgroundColor: 'white',
     altbackground: '#e6f2f8',
