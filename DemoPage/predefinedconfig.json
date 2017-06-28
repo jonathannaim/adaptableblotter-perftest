@@ -575,7 +575,7 @@
             },
             {
                 "Uid": "ded79a23-203b-4792-a9c3-5bee1290f4c0",
-                "Name": "NumberColumn0Between0and70",
+                "Name": "NumberColumn0Between20and70",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -592,6 +592,47 @@
                             ]
                         }
                     ]
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "eafbba23-d913-4b22-9c26-71b86895fd47",
+                "Name": "3NamesOnStringColumn1",
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [
+                        {
+                            "ColumnName": "StringColumn1",
+                            "ColumnValues": [
+                                "Britany Saffell",
+                                "Casimira Tabler",
+                                "Cecil Staab"
+                            ]
+                        }
+                    ],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": []
+                },
+                "IsPredefined": true
+            },
+            {
+                "Uid": "3b4349fd-5318-4876-908a-6651aac8da09",
+                "Name": "4NamesOnStringColumn1",
+                "Expression": {
+                    "ColumnDisplayValuesExpressions": [
+                        {
+                            "ColumnName": "StringColumn1",
+                            "ColumnValues": [
+                                "Hester Bluhm",
+                                "Granville Westfall",
+                                "Colby Troupe",
+                                "Kelley Babb"
+                            ]
+                        }
+                    ],
+                    "ColumnRawValuesExpressions": [],
+                    "UserFilters": [],
+                    "RangeExpressions": []
                 },
                 "IsPredefined": true
             }
