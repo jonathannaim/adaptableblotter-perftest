@@ -575,14 +575,14 @@
             },
             {
                 "Uid": "ded79a23-203b-4792-a9c3-5bee1290f4c0",
-                "Name": "NumberColumn0Between20and70",
+                "Name": "IntColumn2Between20and70",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
                     "UserFilters": [],
                     "RangeExpressions": [
                         {
-                            "ColumnName": "NumberColumn0",
+                            "ColumnName": "IntColumn2",
                             "Ranges": [
                                 {
                                     "Operand1": "20",
