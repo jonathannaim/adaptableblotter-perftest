@@ -678,5 +678,31 @@
                 "IsCollapsed": true
             }
         ]
+    },
+    "FlashingCell": {
+        "FlashingColumns": [
+            {
+                "IsLive": true,
+                "ColumnName": "NumberColumn0",
+                "FlashingCellDuration": {
+                    "Name": "1/2 Second",
+                    "Duration": 500
+                },
+                "UpBackColor": "#008000",
+                "DownBackColor": "#FF0000",
+                "IsPredefined": true
+            },
+            {
+                "IsLive": true,
+                "ColumnName": "NumberColumn3",
+                "FlashingCellDuration": {
+                    "Name": "1/2 Second",
+                    "Duration": 500
+                },
+                "UpBackColor": "#008000",
+                "DownBackColor": "#FF0000",
+                "IsPredefined": true
+            }
+        ]
     }
 }
