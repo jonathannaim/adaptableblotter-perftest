@@ -1,3 +1,4 @@
+// Build the grid, the blotter and performance monitor config
 var adaptableblotter;
 var grid;
 document.addEventListener("DOMContentLoaded", function () {
