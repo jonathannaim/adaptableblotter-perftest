@@ -1,8 +1,8 @@
-var adaptableblotter
-var grid
+var adaptableblotter;
+var grid;
 document.addEventListener("DOMContentLoaded", function () {
-    loadData()
-    InitBlotter()
+    loadData();
+    InitBlotter();
 });
 function capitalize(string) {
     return (/[a-z]/.test(string) ? string : string.toLowerCase())
@@ -78,15 +78,15 @@ function InitBlotter() {
     //create the Hypergrid
     grid = new fin.Hypergrid('#grid', { data: data, schema: getSchema(data) });
     var fpsNumberElement = document.getElementById("ab_fps_number");
-    setInterval(() => { fpsNumberElement.innerText = grid.canvas.currentFPS.toFixed(1) + " FPS"; }, 1000)
+    setInterval(function () { fpsNumberElement.innerText = grid.canvas.currentFPS.toFixed(1) + " FPS"; }, 1000);
     if (tickingDataIntervalElement.value != "NA") {
-        dataGen.startTickingData(grid, tickingDataIntervalElement.value)
+        dataGen.startTickingData(grid, tickingDataIntervalElement.value);
     }
     //Set to `true` to render `0` and `false`. Otherwise these value appear as blank cells.
-    grid.addProperties({ renderFalsy: true })
-    grid.addProperties({ editOnKeydown: false })
+    grid.addProperties({ renderFalsy: true });
+    grid.addProperties({ editOnKeydown: false });
     //needed to compute FPS
-    grid.addProperties({ enableContinuousRepaint: true })
+    grid.addProperties({ enableContinuousRepaint: true });
     //Set to `true` to render `0` and `false`. Otherwise these value appear as blank cells
 
     //create Adaptable Blotter
@@ -104,19 +104,19 @@ function InitBlotter() {
             predefinedConfigUrl: "predefinedconfig.json",
             maxColumnValueItemsDisplayed: 1000
         });
-    adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
-        let csNumberElement = document.getElementById("ab_cs_number");
-        csNumberElement.innerText = adaptableblotter.AdaptableBlotterStore.TheStore.getState().ConditionalStyle.ConditionalStyleConditions.length
-    })
+    adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(function () {
+        var csNumberElement = document.getElementById("ab_cs_number");
+        csNumberElement.innerText = adaptableblotter.AdaptableBlotterStore.TheStore.getState().ConditionalStyle.ConditionalStyleConditions.length;
+    });
     grid.behavior.setColumnProperties(2, {
         editor: 'textfield'
-    })
+    });
     grid.behavior.setColumnProperties(3, {
         editor: 'textfield',
         format: 'number'
-    })
+    });
     var origgetCell = grid.behavior.dataModel.getCell;
-    grid.behavior.dataModel.getCell = (config, declaredRendererName) => {
+    grid.behavior.dataModel.getCell = function (config, declaredRendererName) {
         if (config.isDataRow) {
             if (!adaptableblotter.isColumnReadonly(config.field)) {
                 config.font = lightTheme.fontBold;
@@ -167,4 +167,4 @@ var lightTheme = {
     editorActivationKeys: ['alt', 'esc'],
     columnAutosizing: true,
     readOnly: false
-}
+};
