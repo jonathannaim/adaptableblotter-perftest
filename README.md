@@ -6,6 +6,8 @@ You can stipulate the number of columns and the number of rows, and set the 'tic
 
 You can additionally see how many Conditional Styles are running at any one time (and of course add your own) and also monitor the framerate of the Blotter.
 
+The columns with a bold font ('String Column1', 'Int Column2') are editable.
+
 Adaptable Blotter licences are free for development use, but a paid-for annual end user licence is required for each production user. 
 
 Further information about AdaptableBlotter.JS, and full Help, is available at www.adaptabletools.com. 
