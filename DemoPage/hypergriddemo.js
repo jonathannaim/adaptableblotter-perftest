@@ -99,6 +99,7 @@ function InitBlotter() {
         container,
         {
             primaryKey: "primaryKey",
+            blotterId: "adaptable_blotter_perf",
             userName: "Jonathan",
             enableAuditLog: false,
             enableRemoteConfigServer: false,
