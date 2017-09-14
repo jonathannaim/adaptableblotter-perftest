@@ -36,6 +36,30 @@ export class DataGenerator {
         }, interval)
     }
 
+    startTickingDataAggrid(gridOptions: any, interval: number) {
+        setInterval(() => {
+            let rowData: any = [];
+            gridOptions.api.forEachNode(function (node: any) {
+                rowData.push(node.data);
+            });
+            for (let record of rowData) {
+                let numberToAdd: number = this.generateRandomInt(1, 2) == 1 ? -0.5 : 0.5;
+                record["NumberColumn0"] = this.roundTo4Dp(record["NumberColumn0"] + numberToAdd);
+                record["NumberColumn3"] = this.roundTo4Dp(record["NumberColumn3"] + numberToAdd);
+
+            }
+        }, interval)
+        setInterval(() => {
+            gridOptions.api.getRenderedNodes().forEach((rowNode: any) => {
+                let numberToAdd: number = this.generateRandomInt(1, 2) == 1 ? -0.5 : 0.5;
+                let NumberColumn0 = gridOptions.api.getValue("NumberColumn0", rowNode)
+                let NumberColumn3 = gridOptions.api.getValue("NumberColumn3", rowNode)
+                rowNode.setDataValue("NumberColumn0", this.roundTo4Dp(NumberColumn0 + numberToAdd))
+                rowNode.setDataValue("NumberColumn3", this.roundTo4Dp(NumberColumn3 + numberToAdd))
+            })
+        }, interval)
+    }
+
     createRow(i: number, columnsType: string[]): Row {
         var row: Row = { primaryKey: i }
         columnsType.forEach((x, index) => {

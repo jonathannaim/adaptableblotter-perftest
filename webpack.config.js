@@ -26,6 +26,13 @@ module.exports = {
         failPlugin,
         new HtmlWebpackPlugin({
             chunks: [],
+            filename: "aggriddemo.html",
+            template: 'DemoPage/aggriddemo.ejs',
+            inject: false,
+            'bundleJs': PACKAGE.version + "/adaptableblotteraggrid-bundle.min.js"
+        }),
+        new HtmlWebpackPlugin({
+            chunks: [],
             filename: "hypergriddemo.html",
             template: 'DemoPage/hypergriddemo.ejs',
             inject: false,
