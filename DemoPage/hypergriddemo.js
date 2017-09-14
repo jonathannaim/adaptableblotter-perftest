@@ -124,7 +124,7 @@ function InitBlotter() {
                 config.font = lightTheme.fontBold;
             }
         }
-        return origgetCell(config, declaredRendererName);
+        return origgetCell.call(grid.behavior.dataModel, config, declaredRendererName);
     };
     grid.addProperties(lightTheme);
 }
