@@ -78,7 +78,6 @@ function InitBlotter() {
    var dataGen = new datagenerator.DataGenerator();
    var rowNumberElement = document.getElementById("ab_row_number");
    var columnNumberElement = document.getElementById("ab_column_number");
-   var tickingDataIntervalElement = document.getElementById("ab_ticking_data_interval");
    var data = dataGen.getData(rowNumberElement.value, columnNumberElement.value);
 
 
@@ -89,7 +88,10 @@ function InitBlotter() {
         enableSorting: true,
         enableRangeSelection: true,
         onGridReady: function () {
-            dataGen.startTickingDataAggrid(gridOptions);
+            var tickingDataIntervalElement = document.getElementById("ab_ticking_data_interval");
+            if (tickingDataIntervalElement.value != "NA") {
+                dataGen.startTickingDataAggrid(gridOptions, tickingDataIntervalElement.value);
+            }
         }
     };
     var eGridDiv = document.getElementById('grid');
