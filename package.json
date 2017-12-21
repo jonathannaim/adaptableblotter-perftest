@@ -7,18 +7,18 @@
     "adaptableblotter": "^1.2.2"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
-    "copy-webpack-plugin": "^4.0.1",
+    "copy-webpack-plugin": "^4.3.0",
     "ftp-deploy": "^1.2.1",
-    "html-webpack-plugin": "^2.28.0",
+    "html-webpack-plugin": "^2.30.1",
     "request": "^2.81.0",
-    "ts-loader": "^2.1.0",
+    "ts-loader": "^3.2.0",
     "typescript": "^2.3.4",
-    "webpack": "^1.15.0",
-    "webpack-dev-server": "^1.16.5",
-    "webpack-fail-plugin": "^1.0.6"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-fail-plugin": "^2.0.0"
   },
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server",
