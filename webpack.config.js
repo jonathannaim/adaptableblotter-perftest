@@ -18,14 +18,12 @@ module.exports = {
         libraryTarget: 'umd'
     },
     resolve: {
-        extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js']
+        // Add `.ts` and `.tsx` as a resolvable extension.
+        extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js']
     },
 
     plugins: [
         failPlugin,
-        new webpack.SourceMapDevToolPlugin({
-            filename: '[file].map'
-        }),
         new HtmlWebpackPlugin({
             chunks: [],
             filename: "aggriddemo.html",
