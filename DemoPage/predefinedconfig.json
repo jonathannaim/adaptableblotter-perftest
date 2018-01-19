@@ -7,11 +7,11 @@
                 "Style": {
                     "BackColor": "#c0c0c0",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+					"FontWeight": "Normal",
+					"FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -23,7 +23,7 @@
                                 {
                                     "Operand1": "1",
                                     "Operand2": "10",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -37,11 +37,11 @@
                 "Style": {
                     "BackColor": "#808080",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -53,7 +53,7 @@
                                 {
                                     "Operand1": "10",
                                     "Operand2": "20",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -67,11 +67,11 @@
                 "Style": {
                     "BackColor": "#800000",
                     "ForeColor": "#ffffff",
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -83,7 +83,7 @@
                                 {
                                     "Operand1": "20",
                                     "Operand2": "30",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -97,11 +97,11 @@
                 "Style": {
                     "BackColor": "#808000",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -113,7 +113,7 @@
                                 {
                                     "Operand1": "30",
                                     "Operand2": "40",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -127,11 +127,11 @@
                 "Style": {
                     "BackColor": "#008000",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -143,7 +143,7 @@
                                 {
                                     "Operand1": "40",
                                     "Operand2": "50",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -157,11 +157,11 @@
                 "Style": {
                     "BackColor": "#00ff00",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -173,7 +173,7 @@
                                 {
                                     "Operand1": "50",
                                     "Operand2": "60",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -187,11 +187,11 @@
                 "Style": {
                     "BackColor": "#ffff00",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -203,7 +203,7 @@
                                 {
                                     "Operand1": "60",
                                     "Operand2": "70",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -217,11 +217,11 @@
                 "Style": {
                     "BackColor": "#ffffcc",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -233,7 +233,7 @@
                                 {
                                     "Operand1": "70",
                                     "Operand2": "80",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -247,11 +247,11 @@
                 "Style": {
                     "BackColor": "#000080",
                     "ForeColor": "#ffffff",
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -263,7 +263,7 @@
                                 {
                                     "Operand1": "80",
                                     "Operand2": "90",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -277,11 +277,11 @@
                 "Style": {
                     "BackColor": "#0000ff",
                     "ForeColor": "#ffffff",
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -293,7 +293,7 @@
                                 {
                                     "Operand1": "90",
                                     "Operand2": "100",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -307,11 +307,11 @@
                 "Style": {
                     "BackColor": "#008080",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -323,7 +323,7 @@
                                 {
                                     "Operand1": "100",
                                     "Operand2": "110",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -337,11 +337,11 @@
                 "Style": {
                     "BackColor": "#00ffff",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -353,7 +353,7 @@
                                 {
                                     "Operand1": "110",
                                     "Operand2": "120",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -367,11 +367,11 @@
                 "Style": {
                     "BackColor": "#ff00ff",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -383,7 +383,7 @@
                                 {
                                     "Operand1": "120",
                                     "Operand2": "130",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -397,11 +397,11 @@
                 "Style": {
                     "BackColor": "#800080",
                     "ForeColor": "#ffffff",
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -413,7 +413,7 @@
                                 {
                                     "Operand1": "130",
                                     "Operand2": "140",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -427,11 +427,11 @@
                 "Style": {
                     "BackColor": "#8b0000",
                     "ForeColor": "#ffffff",
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -443,7 +443,7 @@
                                 {
                                     "Operand1": "140",
                                     "Operand2": "150",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -457,11 +457,11 @@
                 "Style": {
                     "BackColor": "#ff0000",
                     "ForeColor": "#ffffff",
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -473,7 +473,7 @@
                                 {
                                     "Operand1": "150",
                                     "Operand2": "160",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -487,11 +487,11 @@
                 "Style": {
                     "BackColor": "#ff6961",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -503,7 +503,7 @@
                                 {
                                     "Operand1": "160",
                                     "Operand2": "170",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -517,11 +517,11 @@
                 "Style": {
                     "BackColor": "#ffa500",
                     "ForeColor": null,
-                    "FontWeight": 0,
-                    "FontStyle": 0,
+                    "FontWeight": "Normal",
+                    "FontStyle": "Normal",
                     "FontSize": null
                 },
-                "ConditionalStyleScope": 1,
+                "ConditionalStyleScope": "Row",
                 "Expression": {
                     "ColumnDisplayValuesExpressions": [],
                     "ColumnRawValuesExpressions": [],
@@ -533,7 +533,7 @@
                                 {
                                     "Operand1": "170",
                                     "Operand2": "180",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -545,8 +545,8 @@
     },
     "QuickSearch": {
         "QuickSearchText": "",
-        "QuickSearchOperator": 8,
-        "QuickSearchDisplayType": 0,
+        "QuickSearchOperator": "Contains",
+        "QuickSearchDisplayType": "ColourCell",
         "QuickSearchBackColor": "#FFFFCC"
     },
     "AdvancedSearch": {
@@ -565,7 +565,7 @@
                                 {
                                     "Operand1": "1",
                                     "Operand2": "50",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -587,7 +587,7 @@
                                 {
                                     "Operand1": "20",
                                     "Operand2": "70",
-                                    "Operator": 7
+                                    "Operator": "Between"
                                 }
                             ]
                         }
@@ -643,13 +643,11 @@
         "DashboardStrategyControls": [
             {
                 "Strategy": "Functions",
-                "IsVisible": true,
-                "IsCollapsed": true
+                "IsVisible": true
             },
             {
-                "Strategy": "DashboardShortcuts",
+                "Strategy": "DashboardBookmarks",
                 "IsVisible": true,
-                "IsCollapsed": true,
                 "ControlConfiguration": [
                     "Dashboard",
                     "Smart Edit",
@@ -659,23 +657,19 @@
             },
             {
                 "Strategy": "AdvancedSearch",
-                "IsVisible": true,
-                "IsCollapsed": true
+                "IsVisible": true
             },
             {
                 "Strategy": "QuickSearch",
-                "IsVisible": false,
-                "IsCollapsed": true
+                "IsVisible": false
             },
             {
                 "Strategy": "Layout",
-                "IsVisible": false,
-                "IsCollapsed": true
+                "IsVisible": false
             },
             {
                 "Strategy": "Filter",
-                "IsVisible": true,
-                "IsCollapsed": true
+                "IsVisible": true
             }
         ]
     },
@@ -684,10 +678,7 @@
             {
                 "IsLive": true,
                 "ColumnName": "NumberColumn0",
-                "FlashingCellDuration": {
-                    "Name": "1/2 Second",
-                    "Duration": 500
-                },
+                "FlashingCellDuration": 500,
                 "UpBackColor": "#008000",
                 "DownBackColor": "#FF0000",
                 "IsPredefined": true
@@ -695,10 +686,7 @@
             {
                 "IsLive": true,
                 "ColumnName": "NumberColumn3",
-                "FlashingCellDuration": {
-                    "Name": "1/2 Second",
-                    "Duration": 500
-                },
+                "FlashingCellDuration": 500,
                 "UpBackColor": "#008000",
                 "DownBackColor": "#FF0000",
                 "IsPredefined": true
