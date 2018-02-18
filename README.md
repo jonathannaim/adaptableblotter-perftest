@@ -8,7 +8,7 @@ You can additionally see how many Conditional Styles are running at any one time
 
 The columns with a bold font ('String Column1', 'Int Column2') are editable.
 
-Adaptable Blotter licences are free for development use, but a paid-for annual end user licence is required for each production user. 
+The Adaptable Blotter is free for development (and proof of concept) use.  And we also offer a free Community Licence for students in full time education, charities and open-source projects.  However, for all other usage, an annual licence must be purchased. (This licence covers both AdaptableBlotter.NET and AdaptableBlotter.JS versions, and offers regular updates and full support).  Please see the LICENSE file for more information or contact the Adaptable Tools Sales Team at sales@adaptabletools.com.
 
 Further information about AdaptableBlotter.JS, and full Help, is available at www.adaptabletools.com. 
 
